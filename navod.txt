@@ -52,3 +52,37 @@ D - deleted: soubor v historii existuje, ale je pripraveny pro odstraneni z prac
 
 //soubory musime naklikat do staging faze
 //budto tam vlozite vsehcno nebo naklikate + jen uz nekterych souboru
+
+//kazdy commit musi mit zpravu
+//po commitnuti se objevi tlacitko "publish branch"
+//to same talcitko najdeme i dole ve spodnim panelu "mracek s sipkou"
+
+//public branch posle vasi lokalni historii do internetoveho uloziste (GitHub)
+
+//potrebujeme na github ucet: https://github.com/
+
+//gihub nemusite pouzivat pokud chcete vsechno mit jen na vlastnim pocitaci
+
+//po otm co klikente na publish branch, tak vas VSC pri pravnim publishovani vyzve k prihlaseni se k githubu
+//muzete si zvolit zda bude projekt public(verejny) nebo private(privatni)
+
+//tim se github a VSC propoji
+//VSC nasledne odesle vase zdrojove kody do internetu
+
+//na teto adrese pak najdete vas zverejneny projekt
+https://github.com/Pidli/git-minikurz
+
+//pod tlacitkem CODE na strance githubu najdete pocet commitu
+//muzete commity rozkliknout a podivat se na to jak se projekt vyvijel
+
+//v talcitku CODE ajdete odakz pro clonovani projektu
+//kdyz si bude nekdo chti vas projekt vytvroti na vlasntim pocitaci, tak tento odkaz pouzije pro naclonovani
+
+//projekt je mozne do pocitace vytvorit 2 zpusoby
+//clone: vznikne novy projekt, ktery uz nema zadne spojeni s original projektem
+//fork: vznikne projekt, ktery ma stale odkazy na puvodni historii a muzeme do originalni historii pak prispivat
+
+//klonovat muzete prikazem nebo staci otevrit nove okno VSC a kliknout na tlacitko clone repository
+
+//kdyz forkujete a chcte originalnu autorovi nabidnout svuj kod, tak provedete commit a originalnimu autorovi pak poslete "pull request"
+//autor se na vas pull request podiva a bud provede merge nebo pull request zrusi
