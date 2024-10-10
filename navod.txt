@@ -1,0 +1,54 @@
+//git je program, ktery dokaze uchovavt historii projektu
+//my si v gitu budeme vytvaret ruzne commity(checkpointy, snapshoty, body obnovy)
+
+//github je cloudova sluzba kam muzeme pak nasi historii uploadnout a sdilet s ostanima lidma
+
+//zjistit zda v pocitaci je git naintalovany
+//git version 2.45.2.windows.1
+# git -v
+
+//zde si muzeme stahnout git pokud ho nemame
+https://git-scm.com/downloads
+
+
+//nyni git naintalujeme
+//v sekci components nemusit enic menit a kliknete na next
+//v sekci default editor zvolte Visual Studio Code
+//v sekci jmeno vetve zvolte "main"
+//v sekci PATH zvolte "Git command line and 3rd party"
+//zbytek veci nechate v defaultu a pak uz jen klikate next dokud instalace neskonci
+//po instalaci restartujete VSC
+
+//jak zahajit verzovani projektu?
+//otevreme terminal na slozce, kterou chceme verzovat
+//toto vytvori git historii (vytvori se skryta slouka .git, tuto slozku nikdy nemazejte jinak prijdete o celou historii)
+//v terminalu slozky spustime tento prikaz
+# git init
+
+//pokud jste git init spustili ve spatne slozce, tak je potreba z dane slozne slozky smazat skyty soubor .git
+
+//ve windows musite zapnout zobrazeni skrytych souboru v pruzkumniku souboru
+//zobrazit>zobrazit>skryte polozky
+
+//v macu ve finderu se skryte soubory zobrazi touto zkratkou
+//cmd + shift + .
+
+//nyni kdyz mate ve slozce uz git, tak kazdy soubor a slozka budou mit u sebe oznaceni v jakem stavu jsou
+U - untracked: soubor je uplne novy a v historii o nem jeste nemame zadny zaznam
+M - modified: soubor, ktery je v pracovni plose, se lidi od souboru, kter y jev historii ulozeny
+A - added: soubor je pripraveny pro prvni zapis do historie
+D - deleted: soubor v historii existuje, ale je pripraveny pro odstraneni z pracovni plochy
+
+//nas prvni commit
+//pokud mate git nainstalovany cerstve poprve, tak se musite nejprve identifikovat
+//musime si nastavit jmeno a email
+# git config --global user.email "student@primakurzy.cz"
+# git config --global user.name "Student Student"
+//tyto identifikacni prikaz provadime jen 1x pro vas notebook, pak uz nemusite nikdy tyto prikazy pouzit
+//nema to nic spolecneho s git init
+
+//commitovat se da pomoci pirkazu, my ale budeme pouzivat nastroj ve VSC
+//source control (ctrl + shit + g)
+
+//soubory musime naklikat do staging faze
+//budto tam vlozite vsehcno nebo naklikate + jen uz nekterych souboru
