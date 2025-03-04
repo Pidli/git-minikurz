@@ -1,0 +1,54 @@
+//git je verzovaci system
+//github je online uloziste pro vase historii souboru
+
+//ostatni programtori si mohou z gihubu vasi hostorii stahnout a zacit pracovat na stejnem projektu
+
+//pojekt muzete na githubu vytvorit verejny nebo privatni
+
+//instalace gitu
+//stahneme si instalaci: https://git-scm.com/downloads
+//v instalaci az se vas to zepta na editor, tka misto VIM vyberte Visual Studio Code
+//az se vas to zepta jak pojmenovat hlavni vetev, tak misto MASTER vyberte volbu MAIN
+//zbytek instalace muzete nechat stejny a proklikat se za na konec
+
+//GIT stejne jako COMPOSER nema graficke rozhrani (nema tlacitka a ovladaci prvky), vsehcno se musi delat pomoci prikazu
+
+//je vsak mozne si do Visualu stahnout graficke rozhrani
+//nejake zakladni ovladaci prvky uz vidusla ma
+//otevrete zalozku Source Control (ctrl + shift + G)
+//pokud tma vidite 2 tlaticka (initialize repo a publish to github), tak to znamena ze visual studio rozpoznalo, ze mate ve stroji nainstalovany git
+
+//pokud kliknete na tlacitko init repo, tak se vytvori repozitar na korenove slozce (v nasem priapde by to bylo "programator-unor")
+//pokud chcte vytvorit historii v nejake konkretni slozce, tak je lepsi pouzit terminalovy prikazu
+
+//otevrem si terminal na slozce "git-minikurz"
+# git init
+
+//git init vam vytvorit do slozky projektu neviditelnou slozku
+//tato neviditelna slozka se jmenuje ".git"
+//abyste videli v windowsu neviditelne slozky, tak je potreba zapnout v pruzkuminku volbu zobrazit skryte soubory
+
+//slozka .git vsobe obsahuje celou historii projektu
+//dokud mate slozku .git, tak je uplne jedno jake soubory smazete, vzdy se to da zpetne obnovit
+
+//git zacne sledovat vase zmeny
+//u souboru se pak mohou objevit nejake pismenka
+U - untracked, soubor je novy a jeste neexistuje v historii
+A - added, soubor je novy a chysta se na prvni zapis do historie
+M - modified, soubor uz v historii existuje, nekdo soubor poeditoval od posledni historie
+D - deleted, soubor v historii existuje, ale nekdo ho oznacil za smazany
+
+//navic se v levem panelu v zalozce source control objevilo cislo, ktere rika, kolik souboru bylo zmeneno
+
+//musime si zachytne body historiie vytvaret sami
+//rika se tomu commity/snapshoty/checkpointy
+
+//jak vyvorit commit?
+//vasemu projektu se v gitu rika workspace
+//musite relevatni soubory z workspace oznacit do staging area
+//staging area je prostor pro soubory, ktere se chystate zapsat do repozitare
+//vetisnou chcete aby byly seskupeny soubory, ktere maji spolu neco spolecneho
+//diky staging area si muzte vsechnu praci, kterou jste za ten den udelali rozdelit do mensich commitu
+
+//commit muzeme udelat pomoci grafickeho rozhrani nebo zase pomoci prikazu
+//A) graficke rozhani - 
