@@ -69,3 +69,16 @@ Pred commitem je potreba definovat idetifikacni udaje autora. Jinak to vyhodi ch
 //# git add nazev-souboru
 //pokud nechcete pridavat soubory po jenom, tak muzete pouzit
 //# git add .
+//nebo
+//# git add ./
+//tento prikaz provede commit souboru, ktere jsou ve stage fazi
+//# git commit -m "komentar commitu"
+//pokud se chcete podivat na seznam vsech vasich commitu tak sputit tento prikaz
+//# git log
+
+//obcas mate v rpacovni slozce projektu soubory, ktere jsou citlive a nemely by se nikdy dostat ven
+//nebo to mohou byt knihovny
+//tyto sobory muzeme uvest do .gitignore, aby je git vubec nevidel a sledoval, tato soubory se pak nikdyo do commitu nedostanou
+//abychom pri commitovani nemuseli furt manualne citlive soubory odebirat, tak je muzeme uvest do souboru .gitignore
+//kazdy soubor/slozka uvedeny v .gitignore ma svuj vlastni radek
+//slozky vzdy budou koncit /
