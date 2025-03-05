@@ -16,7 +16,7 @@
 //je vsak mozne si do Visualu stahnout graficke rozhrani
 //nejake zakladni ovladaci prvky uz vidusla ma
 //otevrete zalozku Source Control (ctrl + shift + G)
-//pokud tma vidite 2 tlaticka (initialize repo a publish to github), tak to znamena ze visual studio rozpoznalo, ze mate ve stroji nainstalovany git
+//pokud tma vidite 2 tlacitka (initialize repo a publish to github), tak to znamena ze visual studio rozpoznalo, ze mate ve stroji nainstalovany git
 
 //pokud kliknete na tlacitko init repo, tak se vytvori repozitar na korenove slozce (v nasem priapde by to bylo "programator-unor")
 //pokud chcte vytvorit historii v nejake konkretni slozce, tak je lepsi pouzit terminalovy prikazu
@@ -50,5 +50,14 @@ D - deleted, soubor v historii existuje, ale nekdo ho oznacil za smazany
 //vetisnou chcete aby byly seskupeny soubory, ktere maji spolu neco spolecneho
 //diky staging area si muzte vsechnu praci, kterou jste za ten den udelali rozdelit do mensich commitu
 
+Pred commitem je potreba definovat idetifikacni udaje autora. Jinak to vyhodi chybu.
+# git config --global user.name "Student"
+# git config --global user.email "student@student.cz"
+
 //commit muzeme udelat pomoci grafickeho rozhrani nebo zase pomoci prikazu
-//A) graficke rozhani - 
+//A) graficke rozhani - Kazdy soubor u sebe bude mit nejake pismenko, ktere rika v jakem stavu soubor je. Pokud soubor chcme dostat do stage faze aby bylo pripravene na zapis do historie, tak klikneme na + vedle souboru. Po tom co naklikame vsehcnmy soubory, ktere chceme, tak pridame nahoru komentar, ktery bude popisovat co vase soubory vlastne delaji. Napr. "prvni commitnuti navodu". Pote kliknete na tlacitko commit a proveze se zapis do repozitare.
+
+//vzdycky pojmenovavejte commit tak, aby bylo hend jasne co commit vykona
+//tip: Vzdy zacnete vetou "Co tento commit udela, kdyz ho nekdo adoptuje?" a odpoved pouzijte jako komentar commitu
+//napr. "prida kontaktni formular", "odebere zastaralou listu", "opravi chybu rezervace"
+
