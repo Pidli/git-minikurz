@@ -105,7 +105,7 @@ Pred commitem je potreba definovat idetifikacni udaje autora. Jinak to vyhodi ch
 //typicky v praci nikdy nebudete provadet zmeny na hlavni vetvi main
 //vsecho co budete programovat bude mit vlastni vetev
 //nazev vetve se bude vzdy ridit pravidly firmy
-//nazev vetve nesmi obshaovat mezery misto mezer pouzijte - nebo /
+//nazev vetve nesmi obsahovat mezery misto mezer pouzijte - nebo /
 //muze vypadat treba takto
 //typ/cislo-tiketu-jmeno-cil-vetve
 feature/5146-tony-rezervacni-formular
@@ -118,3 +118,29 @@ wip - rozdelana/nedokoncena prace (work in progress)
 
 //ve firme budete ukoly dostavat ve forme tiketu, kazdy tiket ma nejake identifikacni cislo
 
+//A) vytvoreni nove branche pomoci grafickych prvku
+//klikneme na tri tecky (...) vedle source control a vybereme branch>create branch
+//VSC se nas zepta na jmeno branche
+//nyni je nas editor nastaveni na nove branchi, vsehcno co od ted upravime nebo pridame a smazeme, tak se bude tykat pouze te nove branche main vetev zustane nedotcena
+//po commitnuti a pushnuti do GitHubu vytvorite PR (pull request) kde napisete sefovi aby vam kod zkontorloval a schvalil
+//mezitim muzete vytvorit dalsi rbanch a pracovat na dalsim ukolu
+
+//B) nyni si ukazeme jak vytvorit branch pomoci prikazu
+//pohyb v brancich
+//tento prikaz zjsiti v jake brancho zrovna jste
+//# git status
+//pomoci prikazu checkout muezte zmenit aktivni branch
+//chceme se vratit zept na branch main
+# git checkout main
+//toto vytvori novou branch
+//bacha!!! vzdy se ujistete ze jste zpet na branchi "main", jinak budete vytvaret novou branch z branche "feature/567-tony-kontaktni-formular"
+# git branch feature/712-tony-menu
+//branch muzeme smazat timto prikazem, pokud jsme ji vytvorili omylem
+# git branch -d feature/712-tony-menu
+//vypis seznamu vsech branchi
+//* znamena jaka branch je zrovna aktivni
+# git branch
+//chceme se presunout do branche "feature/712-tony-menu"
+# git checkout feature/712-tony-menu
+
+//ted kdyz uz jsme ve spravne branchi, tak muzeme zacit programovat menu
