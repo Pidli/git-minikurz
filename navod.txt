@@ -9,6 +9,8 @@
 //stahneme si instalaci: https://git-scm.com/downloads
 //v instalaci az se vas to zepta na editor, tka misto VIM vyberte Visual Studio Code
 //az se vas to zepta jak pojmenovat hlavni vetev, tak misto MASTER vyberte volbu MAIN
+//az se vas to zepta zda chcete pouzit credential manager, tak vyberte volbu None, pokud pocitac bude pouzivat vice lidi
+Pokud budete pocitac pouzivat sami muzete nechat "ano"
 //zbytek instalace muzete nechat stejny a proklikat se za na konec
 
 //GIT stejne jako COMPOSER nema graficke rozhrani (nema tlacitka a ovladaci prvky), vsehcno se musi delat pomoci prikazu
@@ -99,4 +101,20 @@ Pred commitem je potreba definovat idetifikacni udaje autora. Jinak to vyhodi ch
 
 //zalozte si ucet na https://github.com/
 //alternativne muzete pouzit i jine sluzby GitLab nebo BitBucket
+
+//typicky v praci nikdy nebudete provadet zmeny na hlavni vetvi main
+//vsecho co budete programovat bude mit vlastni vetev
+//nazev vetve se bude vzdy ridit pravidly firmy
+//nazev vetve nesmi obshaovat mezery misto mezer pouzijte - nebo /
+//muze vypadat treba takto
+//typ/cislo-tiketu-jmeno-cil-vetve
+feature/5146-tony-rezervacni-formular
+
+feature - nova vec co program jeste nema
+hotfix - docasne reseni pro nejaky problem
+bugfix - trvale reseni problemu
+refactor - presani funkcniho kodu do lepsi formy
+wip - rozdelana/nedokoncena prace (work in progress)
+
+//ve firme budete ukoly dostavat ve forme tiketu, kazdy tiket ma nejake identifikacni cislo
 
