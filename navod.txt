@@ -82,3 +82,21 @@ Pred commitem je potreba definovat idetifikacni udaje autora. Jinak to vyhodi ch
 //abychom pri commitovani nemuseli furt manualne citlive soubory odebirat, tak je muzeme uvest do souboru .gitignore
 //kazdy soubor/slozka uvedeny v .gitignore ma svuj vlastni radek
 //slozky vzdy budou koncit /
+//pokud chcete vyignorovat vsechny sobory s nejakou koncovkou (treba public.log, admin.log, testing.log), tak muzete napsat jenom *.log
+//hvezdicka znamena libovolny string
+
+//pokud pracujete sami, tak staci mist historii pouze u sebe na localu (local repo)
+//pokuda ale chce pracovat v typu, tka je potreba localni repo nakopirovat do remote repo (rika se tomu origin)
+//ostatni spolupracovnici budou vzdy synchronizovat sve localni repo s originem
+//pokud projekt u sebe jeste spolupracovnik nema, tak musi provest clonovani (nakopirovani celeho repo z remotu do zarizeni a vytvorit se local repo)
+//po tom co vas spolupracovnik dokonci svoje ukoly, tak muze do remote repo "pushnout" zmeny
+//pokud nedojde ke klonflitu, tak gihub zmeny prijme a zaintegruje
+//pokud ostatni spolupraocvnici chteji mit aktualni verzi tak musi udelat "pull"
+//pri pushovani muze nastat konflikt (2 lidi se snazi pushnout zmeny ve stejnem souboru a github nevi ktereho uprednostnit nebo jak tyto dva kody spojit)
+//pokud nemate prava pushovat dohlavni vetve programu, tak musite vytvorit "pull request"
+//PR se pouziva k tomu, aby vas senior vasi praci zkontorloval
+//pokud bude vse vporadku,tak vas senior kod prijme a gihub ho zaintegruje do hlavni vetve
+
+//zalozte si ucet na https://github.com/
+//alternativne muzete pouzit i jine sluzby GitLab nebo BitBucket
+
