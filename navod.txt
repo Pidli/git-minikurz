@@ -61,3 +61,11 @@ Pred commitem je potreba definovat idetifikacni udaje autora. Jinak to vyhodi ch
 //tip: Vzdy zacnete vetou "Co tento commit udela, kdyz ho nekdo adoptuje?" a odpoved pouzijte jako komentar commitu
 //napr. "prida kontaktni formular", "odebere zastaralou listu", "opravi chybu rezervace"
 
+//B) commitovani pomici prikazu
+//otevrem terminal ve slozce projektu
+//zjistit jake soubory se zmenily
+//# git status
+//presun souboru do stagovaci faze
+//# git add nazev-souboru
+//pokud nechcete pridavat soubory po jenom, tak muzete pouzit
+//# git add .
