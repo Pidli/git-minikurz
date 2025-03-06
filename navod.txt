@@ -128,7 +128,7 @@ wip - rozdelana/nedokoncena prace (work in progress)
 //B) nyni si ukazeme jak vytvorit branch pomoci prikazu
 //pohyb v brancich
 //tento prikaz zjsiti v jake brancho zrovna jste
-//# git status
+# git status
 //pomoci prikazu checkout muezte zmenit aktivni branch
 //chceme se vratit zept na branch main
 # git checkout main
@@ -144,3 +144,11 @@ wip - rozdelana/nedokoncena prace (work in progress)
 # git checkout feature/712-tony-menu
 
 //ted kdyz uz jsme ve spravne branchi, tak muzeme zacit programovat menu
+
+
+//sef vam zadal novy ukol vlozit do stranky odkaz na https://google.com
+//cislo vaseho ticketu je 811
+//vytvorte novou branch, naimplementujte vas kod a poslete sefovi PR ke schvaleni
+
+
+https://github.com/Pidli/fiktivni-projekt
