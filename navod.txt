@@ -50,3 +50,24 @@ D - deleted - soubor je v historii, ale ve VSC jsi ho smazal
 
 //nyni si ukazeme jak pracovat s tim grafickym nastrojem
 //pojdme si treba ted navic vytvorit soubor index.html
+
+//GitHub - sluzba kam si muzete uploadovat svuj repozitar
+//muzete pak projekt sdilet s ostatnima lidma
+//ostatni progtamtori budto mohou primo prispivat svymi kod nebo mohou navrhnout zmeny v kodu
+//centralni ulozite pro vas projekt, schini co na projektu pracuji musi mit svuj repozitar sesynchonizovany s tim GitHubem
+//Git buh navic hlida, situace,kdy 2 programtori upravuji stejny soubor. Rika se tomu konflikt
+
+//vytvorte si ucet na githubu
+https://github.com/
+
+//nejprve se ujsitit ze nejste prihlaseny za jineho uzivatele ve VSC
+
+//pro uploadovani repozitare do githubu klikne ve spodnim panelu na mracek s sipkou nahoru
+
+//je to jedno jeslti udelate repozitar public nebo private, v nastaveni se to da vzdy zmenit
+
+//POZOR!!!
+//nektere veci na github nepatri
+//napr. hesla, vedor, logy, cache, aj...
+//tyto soubory a slozky je potreba pred gitem schovat
+//vytvorime soubor ".gitignore"

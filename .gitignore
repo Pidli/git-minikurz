@@ -1,0 +1,6 @@
+hesla.txt
+vendor/
+*.log
+tajna-slozka/
+.vscode/
+node_modules/
